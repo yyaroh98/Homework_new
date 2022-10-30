@@ -1,0 +1,99 @@
+.customers-container {
+    margin: 100px 15px 64px;
+}
+
+.customers-subcontainer {
+    width: 1170px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.customers-subcontainer h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0 58px;
+}
+
+.customers-subcontainer__separator {
+    width: 170px;
+    border: 0.5px solid #EC7979;
+    margin: 0 auto 40px;
+}
+
+.customers-subcontainer__description {
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    margin: 0 auto 83px;
+}
+
+.customers-subcontainer__articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-subcontainer article {
+    width: 370px;
+    height: 336px;
+}
+
+.customers-subcontainer__text {
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+}
+
+.customers-subcontainer__text h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    text-align: center;
+    color: #86878B;
+    padding: 38px 0 37px;
+}
+
+.customers-subcontainer__articles img {
+    margin: 0 0 46px 70px;
+}
+
+.customers-subcontainer__people {
+    display: flex;
+    height: 90px;
+
+}
+
+.customers-subcontainer__people img {
+    align-self: flex-start;
+    margin: 0 auto;
+}
+
+.customers-subcontainer__name {
+    margin-left: 30px;
+    position: relative;
+
+}
+
+.customers-subcontainer__name h4 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    height: 54px;
+    width: 270px;
+}
+
+.customers-subcontainer__name h5 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    bottom: 0;
+    height: 21px;
+    width: 270px;
+}
