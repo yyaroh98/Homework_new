@@ -6,20 +6,92 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>axit</title>
+  <link rel="stylesheet" href="styles/header.css" />
   <link rel="stylesheet" href="styles/tabs.css" />
+  <link rel="stylesheet" href="styles/banner-main.css" />
+  <link rel="stylesheet" href="styles/social.css" />
   <link rel="stylesheet" href="styles/awesome.css" />
   <link rel="stylesheet" href="styles/pricing.css" />
   <link rel="stylesheet" href="styles/customers.css" />
+  <link rel="stylesheet" href="styles/banner.css" />
+  <link rel="stylesheet" href="styles/contact.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
 </head>
 
 <body>
+  <header>
+    <div class="header-container">
+      <img src="images/AX.png" alt="AX">
+      <img src="images/IT.png" alt="IT">
+    </div>
+    <nav>
+      <button>Features</button>
+      <button>About</button>
+      <button>Pricing</button>
+      <button>Reviews</button>
+      <button>Contact</button>
+    </nav>
+  </header>
+
+  <main class="banner-main-container">
+    <div class="banner-main-subcontainer">
+      <section class="banner-main-subcontainer__info">
+        <img src="images/logo.png" alt="logo">
+        <h1>
+          Modern axure template
+          <br>
+          for beautiful
+          <br>
+          prototypes
+        </h1>
+        <div class="banner-main-subcontainer__separator"></div>
+        <h5>
+          Lorem ipsum dolor sit amet,
+          <br>
+          consectetur adipiscing elit
+        </h5>
+        <button>Download</button>
+      </section>
+      <form onsubmit="return false">
+        <h4>
+          Try your <span>free</span> trial today
+        </h4>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button>Get Started</button>
+      </form>
+    </div>
+  </main>
+
+  <section class="social-container">
+    <div class="social-subcontainer">
+      <div class="social-subcontainer__info">
+        <h4>Social Media</h4>
+        <h5>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Aenean euismod bibendum laoreet.
+        </h5>
+      </div>
+      <div class="social-container__icons">
+        <img src="images/facebook.png" alt="facebook_icon">
+        <img src="images/twitter.png" alt="twitter_icon">
+        <img src="images/linkedin.png" alt="linkedin_icon">
+        <img src="images/pinterest.png" alt="pinterest_icon">
+        <img src="images/instagram.png" alt="instagram_icon">
+        <img src="images/github.png" alt="github_icon">
+        <img src="images/rss.png" alt="rss_icon">
+      </div>
+    </div>
+  </section>
+
   <main class="tabs-container">
     <div class="tabs-subcontainer">
       <section class="tabs-subcontainer__list">
-        <div class="tabs-subcontainer__tab tabs-subcontainer__tab1">tab 1</div>
-        <div class="tabs-subcontainer__tab tabs-subcontainer__tab2">tab 2</div>
-        <div class="tabs-subcontainer__tab tabs-subcontainer__tab3">tab 3</div>
-        <div class="tabs-subcontainer__tab tabs-subcontainer__empty-tab"></div>
+        <div class="tabs-subcontainer__tab1">tab 1</div>
+        <div class="tabs-subcontainer__tab2">tab 2</div>
+        <div class="tabs-subcontainer__tab3">tab 3</div>
+        <div class="tabs-subcontainer__empty-tab"></div>
       </section>
       <section class="tabs-subcontainer__open-tab">
         <section class="tabs-subcontainer__left-side">
@@ -40,48 +112,72 @@
           </h5>
           <button>Download</button>
         </section>
-        <img src="images/Rectangle 111.png" alt="The State of Liberty">
+        <img src="images/Rectangle 111.png" alt="The Statue of Liberty">
       </section>
     </div>
   </main>
 
   <main class="awesome-container">
-    <div class="awesome-subcontainer">
-      <h2>why this is awesome</h2>
+    <section class="awesome-subcontainer">
+      <h2>Why this is awesome</h2>
       <div class="awesome-subcontainer__separator"></div>
       <h5 class="awesome-subcontainer__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-
       <section class="awesome-subcontainer__articles">
         <article>
           <img src="images/1.png" alt="bulb">
           <h4>Thoughtful Design</h4>
-          <h5>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing <br />
-            elit. Aenean euismod bibendum laoreet. <br /> Proin gravida dolor sit amet lacus <br /> accumsan et
-            viverra.</h5>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur
+            <br />
+            adipiscing
+            <br />
+            elit. Aenean euismod bibendum laoreet.
+            <br />
+            Proin gravida dolor sit amet lacus
+            <br /> accumsan etviverra.
+          </h5>
         </article>
-        <article class="second">
+        <article>
           <img src="images/2.png" alt="keyboard">
           <h4>Thoughtful Design</h4>
-          <h5 class="conetnt-description">Lorem ipsum dolor sit amet, consectetur <br /> adipiscing <br />
-            elit. Aenean euismod bibendum laoreet. <br /> Proin gravida dolor sit amet lacus <br /> accumsan et
-            viverra.</h5>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur
+            <br />
+            adipiscing
+            <br />
+            elit. Aenean euismod bibendum laoreet.
+            <br />
+            Proin gravida dolor sit amet lacus
+            <br />
+            accumsan etviverra.
+          </h5>
         </article>
         <article>
           <img src="images/3.png" alt="lightning">
           <h4>Thoughtful Design</h4>
-          <h5>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing <br />
-            elit. Aenean euismod bibendum laoreet. <br /> Proin gravida dolor sit amet lacus <br /> accumsan et
-            viverra.</h5>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur
+            <br />
+            adipiscing
+            <br />
+            elit. Aenean euismod bibendum laoreet.
+            <br />
+            Proin gravida dolor sit amet lacus
+            <br />
+            accumsan etviverra.
+          </h5>
         </article>
       </section>
-    </div>
+    </section>
   </main>
 
   <main class="pricing-container">
     <div class="pricing-subcontainer">
-      <h2>pricing options</h2>
+      <h2>Pricing options</h2>
       <div class="pricing-subcontainer__separator"></div>
-      <h5 class="pricing-subcontainer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+      <h5 class="pricing-subcontainer__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </h5>
       <section class="pricing-subcontainer__sections">
         <section class="pricing-subcontainer__price-info">
           <h4>Basic</h4>
@@ -124,11 +220,14 @@
     <div class="customers-subcontainer">
       <h2>what our customers are saying</h2>
       <div class="customers-subcontainer__separator"></div>
-      <h5 class="customers-subcontainer__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+      <h5 class="customers-subcontainer__description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </h5>
       <section class="customers-subcontainer__articles">
         <article>
-          <div class="customers-subcontainer__text">
-            <h5>Lorem ipsum dolor sit amet,
+          <div class="customers-subcontainer__opinion">
+            <h5 class=" customers-subcontainer__quote">
+              Lorem ipsum dolor sit amet,
               <br />
               consectetur adipisicing elit. Doloribus
               <br />
@@ -139,8 +238,8 @@
               quo suscipit.
             </h5>
           </div>
-          <img src="images/Polygon 1.png" alt="triangle">
-          <div class="customers-subcontainer__people">
+          <img src="images/Polygon 1.png" alt="triangle" class="triangle">
+          <div class="customers-subcontainer__customer-info">
             <img src="images/Ellipse 7.png" alt="Davis Rhiel Madsen">
             <div class="customers-subcontainer__name">
               <h4>Davis Rhiel Madsen</h4>
@@ -149,8 +248,9 @@
           </div>
         </article>
         <article>
-          <div class="customers-subcontainer__text">
-            <h5>Lorem ipsum dolor sit amet,
+          <div class="customers-subcontainer__opinion">
+            <h5 class=" customers-subcontainer__quote">
+              Lorem ipsum dolor sit amet,
               <br />
               consectetur adipisicing elit. Doloribus
               <br />
@@ -161,8 +261,8 @@
               quo suscipit.
             </h5>
           </div>
-          <img src="images/Polygon 1.png" alt="triangle">
-          <div class="customers-subcontainer__people">
+          <img src="images/Polygon 1.png" alt="triangle" class="triangle">
+          <div class="customers-subcontainer__customer-info">
             <img src="images/Ellipse 7-1.png" alt="Jaydon Rosser">
             <div class="customers-subcontainer__name">
               <h4>Jaydon Rosser</h4>
@@ -171,8 +271,9 @@
           </div>
         </article>
         <article>
-          <div class="customers-subcontainer__text">
-            <h5>Lorem ipsum dolor sit amet,
+          <div class="customers-subcontainer__opinion">
+            <h5 class="customers-subcontainer__quote">
+              Lorem ipsum dolor sit amet,
               <br />
               consectetur adipisicing elit. Doloribus
               <br />
@@ -183,8 +284,8 @@
               quo suscipit.
             </h5>
           </div>
-          <img src="images/Polygon 1.png" alt="triangle">
-          <div class="customers-subcontainer__people">
+          <img src="images/Polygon 1.png" alt="triangle" class="triangle">
+          <div class="customers-subcontainer__customer-info">
             <img src="images/Ellipse 7-2.png" alt="Cooper Dorwart">
             <div class="customers-subcontainer__name">
               <h4>Cooper Dorwart</h4>
@@ -193,8 +294,56 @@
           </div>
         </article>
       </section>
+      <div class="customers-subcontainer__switcher">
+        <button></button>
+        <button></button>
+        <button></button>
+      </div>
     </div>
   </main>
+
+  <main class="banner-container">
+    <section class="banner-subcontainer">
+      <h2>Stylish axure design</h2>
+      <div class="banner-subcontainer__separator"></div>
+      <h5>
+        Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
+      </h5>
+      <button>Download</button>
+    </section>
+  </main>
+
+  <main class="contact-container">
+    <section class="contact-subcontainer">
+      <h2>Contact us</h2>
+      <div class="contact-subcontainer__separator"></div>
+      <h5>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </h5>
+      <form action="#" onsubmit="return false">
+        <div class="contact-subcontainer__inputs">
+          <input placeholder="Name" type="text">
+          <input placeholder="Email" type="email">
+          <input placeholder="Password" type="password">
+        </div>
+        <textarea placeholder="Message"></textarea>
+      </form>
+      <button>Send message</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <img src="images/facebook_icon.png" alt="facebook_icon">
+      <img src="images/twitter_icon.png" alt="twitter_icon">
+      <img src="images/linkedin_icon.png" alt="linkedin_icon">
+      <img src="images/pinterest_icon.png" alt="pinterest_icon">
+      <img src="images/instagram_icon.png" alt="instagram_icon">
+      <img src="images/github_icon.png" alt="github_icon">
+      <img src="images/rss_icon.png" alt="icon.png">
+    </div>
+    <h5>© 2015 Axure Themes</h5>
+  </footer>
 
 </body>
 

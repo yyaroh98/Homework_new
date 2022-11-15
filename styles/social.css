@@ -1,0 +1,42 @@
+.social-container {
+    height: 140px;
+    background: #F8EFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.social-subcontainer {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+}
+
+.social-subcontainer__info {
+    width: 470px;
+}
+
+.social-subcontainer h4 {
+    line-height: 60px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 18px;
+}
+
+.social-subcontainer h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+    line-height: 21.13px;
+}
+
+.social-container__icons {
+    width: calc(35px * 6 + 70px * 7);
+    display: flex;
+    justify-content: space-between;
+}
